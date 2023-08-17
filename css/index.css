@@ -1,0 +1,625 @@
+
+
+/* Margareth Vargas Salas */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:wght@100&family=Pacifico&family=Quicksand:wght@300;600&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* background-image: url('../images/fondo.png'); */
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+header div div a {
+    text-decoration: none;
+    /* color: #FFF; */
+}
+
+.logo-vallejo {
+    width: 150px;
+    /* height: 65px; */
+    margin-left: 40px;
+}
+
+.logofooter-vallejo {
+    width: 200px
+}
+
+#background-image {
+    /* background-image: url('../images/banner.jpg'); */
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #FFF; */
+    flex-direction: column;
+}
+
+.border-card {
+    border: solid 4px #B22222 !important;
+}
+
+.border-circle {
+    border: solid 4px #808000 !important;
+}
+
+.color-ocre {
+    color: #B22222;
+}
+
+.bg-ocre {
+    background-color: #B22222 !important;
+}
+
+.margin-footer {
+    margin-top: 85px !important;
+}
+
+/* CSS Responsive */
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        overflow-y: auto;
+        visibility: hidden;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+    .icons-menu {
+        visibility: hidden;
+    }
+    .seccion-footer {
+        display: none;
+    }
+    .seccion-footer-movil {        
+        display: block !important;
+    }
+    .imagen-1{
+        width: 100% !important;
+    }
+    .imagen-desktop {
+        display: none !important;
+    }
+    .imagen-mobil {
+        display: block !important;
+    }
+}
+
+.seccion-footer-movil {
+    display: none;
+}
+
+/* CSS Responsive */
+
+.h-100-custom {
+    height: 100px !important;
+}
+
+.mx-150 {
+    margin-right: 150px !important;
+    margin-left: 150px !important;
+}
+
+.font-10 {
+    font-size: 10px
+}
+
+.font-12 {
+    font-size: 12px
+}
+
+.font-16 {
+    font-size: 16px
+}
+
+.font-32 {
+    font-size: 32px
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+footer {
+    /* background-image: url('../images/fondo.png'); */
+    height: 70px;
+
+}
+
+.bg-bottom {
+    background-color: #D9D9D9 ;
+    height: 300px;
+    width: 500px;
+}
+
+.bg-body-custom {
+    background-color: #EBEBF0 !important;
+}
+
+.icons-menu {
+    list-style: none
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.left-90 {
+    left: 90%;
+}
+
+.margin-left-15 {
+    margin-left: 15%;
+    /* left: 50px; */
+}
+.margin-left-40 {
+    margin-left: 40%;
+    /* left: 50px; */
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    color: #000000 !important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.imagen-1{
+    width: 200%;
+}
+
+
+.imagen-desktop {
+    display: block;
+}
+.imagen-mobil {
+    display: none;
+}
+
+/* Margareth Vargas Salas */
+
+/* Clemente Jair */
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main p {
+    color: #9E9DA2;
+    font-size: 20px;
+}
+
+ 
+
+.cards h1 {
+    display: flex;
+    justify-content: space-between;
+    color: #75BF74;
+    border-radius: 50%;
+}
+
+ 
+
+.titleone {
+    text-align: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+ 
+
+.maintitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+
+.colortext {
+    color: #75BF74;
+} 
+
+@media only screen and (max-width: 555px) {
+
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+        .row {
+            flex-direction: column;
+        }
+    .cuerpo {
+        width: auto;
+    }
+
+    .container {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 5px 100px;
+    }
+
+  }
+
+
+/* Clemente Jair  */
+  
+
+/* Herrera Fernández, Josué */
+
+
+/* 
+
+body {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    margin: 0;
+
+}
+
+ 
+
+h1 {
+
+    width: 557px;
+
+    height: 180px;
+
+    top:60px;
+
+    left: -60px;
+
+    position: relative;
+
+    align-items: center;
+
+    text-align: center;
+
+    font-size: 40px;
+
+}
+
+ 
+
+p {
+
+    width: 550px;
+
+    height: 120px;
+
+    top: 5px;
+
+    left: 20px;
+
+    position: relative;
+
+    font-size: 24px;
+
+}
+
+ 
+
+.btn-dark {
+
+    color: white;
+
+    background-color: black;
+
+    width: 180px;
+
+    height: 35px;
+
+    left: 20px;
+
+    position: relative;
+
+}
+
+ 
+
+.btn-link {
+
+    color: white;
+
+    background-color: black;
+
+    width: 180px;
+
+    height: 35px;
+
+    position: relative;
+
+    top: 0px;
+
+    left: 130px;
+
+    text-align: center;
+
+    align-items: center;
+
+}
+
+ 
+
+.btn img {
+
+    width: 20px;
+
+    height: 20px;
+
+    margin: 3px;
+
+    align-items: center;
+
+    text-align: center;
+
+    position: relative;
+
+    top: 2px;
+
+}
+
+ 
+
+.content {
+
+    display: flex;
+
+    width: 80%;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+}
+
+ 
+
+.text-column {
+
+    flex: 1;
+
+    padding: 20px;
+
+    background-color: #f3f3f3;
+
+}
+
+ 
+
+.image-column {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+ 
+
+.image-column img {
+
+    max-width: 100%;
+
+    max-height: 100%;
+
+}
+
+ 
+
+@media only screen and (max-width: 767px) {
+
+    body {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        height: 100vh;
+
+        margin: 0;
+
+    }
+
+   
+
+    h1 {
+
+        width: 220px;
+
+        height: 60px;
+
+        font-size: 15px;
+
+        position: relative;
+
+        top: 20px;
+
+        left: -40px;
+
+    }
+
+   
+
+    p {
+
+        width: 120px;
+
+        height: 40px;
+
+        position: relative;
+
+        top: 10px;
+
+        left: 10px;
+
+        font-size: 8px;
+
+    }
+
+   
+
+    .btn-dark {
+
+        color: white;
+
+        background-color: black;
+
+        width: 30px;
+
+        height: 10px;
+
+        position: relative;
+
+        top: 8px;
+
+        left: 130px;
+
+        font-size: 3px;
+
+    }
+
+   
+
+    .btn-link {
+
+        color: white;
+
+        background-color: black;
+
+        width: 30px;
+
+        height: 10px;
+
+        position: relative;
+
+        top: 8px;
+
+        left: 50px;
+
+        font-size: 3px
+
+    }
+
+   
+
+    .btn img {
+
+        width: 20px;
+
+        height: 20px;
+
+        margin: 3px;
+
+        align-items: center;
+
+        text-align: center;
+
+        position: relative;
+
+        top: 2px;
+
+    }
+
+   
+
+    .content {
+
+        display: flex;
+
+        width: 100%;
+
+        max-width: 500px;
+
+        margin: 0 auto;
+
+    }
+
+   
+
+    .text-column {
+
+        flex: 1;
+
+        padding: 10px;
+
+        background-color: #f3f3f3;
+
+        width: 50%;
+
+    }
+
+   
+
+    .image-column {
+
+        flex: 2;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+   
+
+    .image-column img {
+
+        max-width: 200px;
+
+        max-height: 150px;
+
+    }
+
+   
+
+} */
+
+/* Herrera Fernández, Josué */
